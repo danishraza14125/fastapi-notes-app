@@ -16,7 +16,7 @@ app.include_router(auth.router)
 
 @app.get("/")
 def root():
-    return {"message": "Notes App with Auth is running!"}
+    return {"message": "I think the fastapi app is running "}
 
 @app.get("/")
 def root():
