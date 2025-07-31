@@ -18,6 +18,9 @@ app.include_router(auth.router)
 def root():
     return {"message": "Notes App with Auth is running!"}
 
+@app.get("/")
+def root():
+    return {"message": "Notes App with Auth is running!"}
 
 # ✅ Place this route here for testing authentication
 @app.get("/secure-data")
